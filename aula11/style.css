@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+    font: Arial 18pt;
+    color: chartreuse;
+    text-align: center;
+}
+#btn{
+    font: Times 14pt;
+    color: white;
+    margin-top: 20px;
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#resultado{
+    margin-top: 20px;
+    color: darkblue;
+}
+
