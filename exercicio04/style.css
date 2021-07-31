@@ -1,0 +1,39 @@
+body{
+    font: normal Arial 15pt;
+    text-align: center;
+    background-color: rgb(26, 26, 168);
+}
+header{
+    color: white;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+#resultados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.exibir{
+    margin: 10px;
+    padding: 5px;
+}
+
+#btn{
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+footer{
+    color: turquoise;
+    font-style: italic;
+}
