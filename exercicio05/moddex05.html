@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="titulo">
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+            <label for="valor">Numero (entre 1 e 100): </label>
+            <input type="number" name="valor" id="valor">
+            <input type="button" value="Inserir" id="btn" onclick="rodar()"><br><hr>
+        
+            <div id="info">
+               <p>Digite um numero!</p>
+            </div><hr>
+            <div class="exibir">
+                <div id="armaz">
+                </div>
+                <div id="res">
+                </div>
+            </div><br>
+            <input type="button" value="Resultado" id="calcular" onclick="calcular()">
+            <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+    </section>
+    
+    <footer id="rodape">
+        <p>&copy; Curso em Vídeo</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    font: normal Arial 15pt;
+    text-align: center;
+    background-color: rgb(26, 26, 168);
+}
+header{
+    color: white;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+.exibir{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+#armaz{
+    margin-right: 25px;
+    width: 200px;
+}
+
+#res{
+    margin-left: 25px;
+    width: 200px;
+}
+
+#btn{
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+#calcular{
+    margin-top: 10px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+#limpar{
+    margin-top: 10px;
+    background-color: rgb(216, 57, 57);
+    border-radius: 5px;
+}
+
+footer{
+    color: turquoise;
+    font-style: italic;
+}
